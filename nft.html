@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TailWind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <!-- Stylesheet Connected -->
+    <link rel="stylesheet" href="CSS/nft.css" />
+    <!-- icons Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+
+    <main id="html">
+    <!-- Navbar Code Starts Here -->
+    <nav class="flex justify-around items-center h-20">
+      <ul class="flex space-x-6 items-center">
+        <li><img src="assets/logo.png" alt="Logo" class="min-w-fit" /></li>
+        <li><p class="logo-text font-bold text-2xl">N F T K E Y</p></li>
+      </ul>
+      <ul class="flex space-x-3">
+        <li> 
+            <button class="px-2 py-1 font-semibold text-sm bg-white rounded-full" id="clock">
+                <span class="material-symbols-outlined bg-white"> pace </span>
+              </button>
+        </li>
+        <li>
+          <button class="px-2 py-1 font-semibold text-sm bg-white rounded-full" id="search">
+            <span class="material-symbols-outlined bg-white"> search </span>
+          </button>
+        </li>
+        <li>
+          <button class="px-3 py-2 font-semibold text-sm bg-white rounded-full" id="wallet">
+            Connect Wallet
+          </button>
+        </li>
+        <li>
+          <button class="px-2 py-1 font-semibold text-sm bg-white rounded-full">
+            <span class="material-symbols-outlined bg-white"> dark_mode </span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+    <!-- Navbar Code Ends Here -->
+
+    <!-- Categories Starts From here -->
+    <section
+      class="h-16 bg-white flex space-x-5 lg:space-x-16 justify-center items-center"
+    >
+      <button class="h-16 text-sm lg:text-xl" id="collection-btn">Collection</button>
+      <button class="h-16 text-sm lg:text-xl" id="listing-btn">New Listings</button>
+      <button class="h-16 text-sm lg:text-xl" id="artist-btn">Artists</button>
+      <button class="h-16 text-sm lg:text-xl" id="teams-btn">Teams</button>
+      <button class="h-16 text-sm lg:text-xl" id="stats-btn">Statistics</button>
+    </section>
+    <!-- Categories Starts Ends here -->
+    <div id="collection-div">
+    <!-- Heading + Button Starts Here -->
+    <div class="flex items-center justify-center h-20 lg:h-28">
+      <h1 class="text-xl lg:text-4xl font-bold">
+        Discover, collect and trade NFTs
+      </h1>
+    </div>
+    <div class="flex items-center justify-center">
+      <button
+        class="px-5 lg:px-6 py-2 lg:py-3 text-sm lg:textlg lg:font-bold bg-black rounded-full text-white"
+      >
+        Explore popular collections
+      </button>
+    </div>
+    <br /><br />
+    <!-- Heading + Button Ends Here -->
+
+    <!-- Choices Starts Here -->
+    <section class="flex justify-center items-center">
+      <div class="bg-white rounded-full py-0.5 lg:py-0">
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2.5 bg-black text-white rounded-full text-sm lg:text-xl font-semibold"
+        >
+          All
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          FTM
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          BSC
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          MATIC
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          ONE
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          AVAX
+        </button>
+      </div>
+    </section>
+    <br /><br />
+    <!-- Choices Ends Here -->
+
+    <!-- Mini Card Starts Here -->
+    <section class="flex justify-center space-x-7 overflow-auto">
+      <div class="flex h-20 bg-white rounded-2xl px-2 items-center card">
+        <div class="bg-white">
+          <img
+            src="assets/mini-card-1.png"
+            alt="Card"
+            class="w-16 h-16 rounded-md mini-card-img"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center h-10 px-3 bg-white flex-col"
+        >
+          <p class="font-semibold bg-white">3 Bak's 33 Eggz</p>
+          <div class="bg-white">
+            <button class="bg-black text-white px-1 rounded-md text-sm mr-1">
+              FTM
+            </button>
+            32 NFTs
+          </div>
+        </div>
+      </div>
+      <div class="flex h-20 bg-white rounded-2xl px-2 items-center card">
+        <div class="bg-white">
+          <img
+            src="assets/mini-card-2.png"
+            alt="Card"
+            class="w-16 h-16 rounded-md mini-card-img"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center h-10 px-3 bg-white flex-col"
+        >
+          <p class="font-semibold bg-white">3 Bak's 33 Eggz</p>
+          <div class="bg-white">
+            <button class="bg-black text-white px-1 rounded-md text-sm mr-1">
+              FTM
+            </button>
+            32 NFTs
+          </div>
+        </div>
+      </div>
+      <div class="flex h-20 bg-white rounded-2xl px-2 items-center card">
+        <div class="bg-white">
+          <img
+            src="assets/mini-card-3.png"
+            alt="Card"
+            class="w-16 h-16 rounded-md mini-card-img"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center h-10 px-3 bg-white flex-col"
+        >
+          <p class="font-semibold bg-white">3 Bak's 33 Eggz</p>
+          <div class="bg-white">
+            <button class="bg-black text-white px-1 rounded-md text-sm mr-1">
+              One
+            </button>
+            32 NFTs
+          </div>
+        </div>
+      </div>
+      <div class="flex h-20 bg-white rounded-2xl px-2 items-center card">
+        <div class="bg-white">
+          <img
+            src="assets/mini-card-4.png"
+            alt="Card"
+            class="w-16 h-16 rounded-md mini-card-img"
+          />
+        </div>
+        <div
+          class="flex justify-center items-center h-10 px-3 bg-white flex-col"
+        >
+          <p class="font-semibold bg-white">3 Bak's 33 Eggz</p>
+          <div class="bg-white">
+            <button class="bg-black text-white px-1 rounded-md text-sm mr-1">
+              Matic
+            </button>
+            32 NFTs
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Mini Card Ends Here -->
+
+    <!-- SideContent -->
+    <div class="position flex flex-col gap-6" id="show">
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          whatshot
+        </span></a
+      >
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          bookmark
+        </span></a
+      >
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          circle_notifications
+        </span></a
+      >
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          duo
+        </span></a
+      >
+    </div>
+
+
+
+
+
+
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c1.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c2.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c3.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c4.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c5.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c6.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c7.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c8.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c9.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c10.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c11.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c12.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c1.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c2.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c3.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c4.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c5.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c6.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c7.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c8.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c9.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c10.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c11.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c12.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c1.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c2.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c3.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c4.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c5.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c6.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c7.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c8.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c9.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c10.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c11.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c12.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <section class="flex justify-center   mt-6 mb-8">
+      <div
+        class="list-card py-10 bg-white mt-7 flex justify-center items-center flex-col mx-1"
+      >
+        <h3
+          class="text-2xl text-center lg:text-3xl font-bold bg-white mb-5 mx-5"
+        >
+          NFTKEY integration criteria for NFT collections
+        </h3>
+        <div class="flex lg:gap-10 bg-white flex-col lg:flex-row mt-5">
+          <ul class="list-disc text-lg bg-white space-y-4 mb-3">
+            <li class="bg-white">High standard of art and design</li>
+            <li class="bg-white">Consists of an NFT collection</li>
+            <li class="bg-white">Utilises an accepted NFT standard</li>
+          </ul>
+          <ul class="list-disc text-lg bg-white space-y-4">
+            <li class="bg-white">High standard of art and design</li>
+            <li class="bg-white">Consists of an NFT collection</li>
+            <li class="bg-white">Utilises an accepted NFT standard</li>
+          </ul>
+        </div>
+        <button
+        class=" px-16 py-2 lg:py-3 text-sm lg:textlg font-bold bg-black rounded-md text-white mt-5"
+      >
+       We'd love to hear from you
+      </button>
+      </div>
+    </section>
+</div>
+
+
+
+<div id="listing-div">
+    <!-- Heading + Button Starts Here -->
+    <div class="flex items-center justify-center h-20 lg:h-28">
+      <h1 class="text-xl lg:text-4xl font-bold">
+        Explore new listings
+      </h1>
+    </div>
+    <div class="flex items-center justify-center">
+     
+    </div>
+    <br /><br />
+    <!-- Heading + Button Ends Here -->
+
+    <!-- Choices Starts Here -->
+    <section class="flex justify-center items-center">
+      <div class="bg-white rounded-full py-0.5 lg:py-0">
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2.5 bg-black text-white rounded-full text-sm lg:text-xl font-semibold"
+        >
+          All
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          FTM
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          BSC
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          MATIC
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          ONE
+        </button>
+        <button
+          class="px-3 md:px-11 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+        >
+          AVAX
+        </button>
+      </div>
+    </section>
+    <br /><br />
+    <!-- Choices Ends Here -->
+
+    <!-- Mini Card Starts Here -->
+   
+
+    <!-- SideContent -->
+    <div class="position flex flex-col gap-6" id="show">
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          whatshot
+        </span></a
+      >
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          bookmark
+        </span></a
+      >
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          circle_notifications
+        </span></a
+      >
+      <a href="#"
+        ><span
+          class="material-symbols-outlined bg-black text-white rounded-full px-2 py-2"
+        >
+          duo
+        </span></a
+      >
+    </div>
+
+
+
+
+
+
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c1.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c2.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c3.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c7.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c8.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c9.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+    <!-- NFT Cards Starts here -->
+    <section
+      class="flex justify-center flex-col md:flex-row lg:flex-row gap-1 lg:gap-8"
+    >
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c10.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs bg-red-400 px-4 py-1 rounded-full text-center mt-5 mb-14 text-white font-bold"
+        >
+          Highest 24h volume
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c11.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+      <div
+        class="lg:mt-7 lg:w-80 shadow-lg flex flex-col items-center rounded-lg bg-white m-1"
+      >
+        <img src="assets/c12.png" alt="" class="rounded-t-lg" />
+        <h3 class="text-center mt-4 text-2xl font-semibold bg-white">
+          Pancake Squad
+        </h3>
+        <button
+          class="text-xs border border-#aaabad shadow-lg px-4 py-1 rounded-full text-center mt-5 mb-14"
+        >
+          MarketPlace
+        </button>
+      </div>
+    </section>
+    <!-- NFT Cards Ends here -->
+
+   
+    <!-- NFT Cards Ends here -->
+
+    <section class="flex justify-center   mt-6 mb-8">
+      <div
+        class="list-card py-10 bg-white mt-7 flex justify-center items-center flex-col mx-1"
+      >
+        <h3
+          class="text-2xl text-center lg:text-3xl font-bold bg-white mb-5 mx-5"
+        >
+          NFTKEY integration criteria for NFT collections
+        </h3>
+        <div class="flex lg:gap-10 bg-white flex-col lg:flex-row mt-5">
+          <ul class="list-disc text-lg bg-white space-y-4 mb-3">
+            <li class="bg-white">High standard of art and design</li>
+            <li class="bg-white">Consists of an NFT collection</li>
+            <li class="bg-white">Utilises an accepted NFT standard</li>
+          </ul>
+          <ul class="list-disc text-lg bg-white space-y-4">
+            <li class="bg-white">High standard of art and design</li>
+            <li class="bg-white">Consists of an NFT collection</li>
+            <li class="bg-white">Utilises an accepted NFT standard</li>
+          </ul>
+        </div>
+        <button
+        class=" px-16 py-2 lg:py-3 text-sm lg:textlg font-bold bg-black rounded-md text-white mt-5"
+      >
+       We'd love to hear from you
+      </button>
+      </div>
+    </section>
+</div>
+    <section class="h-44"></section>
+
+
+
+  
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Extra PopUps -->
+
+
+    <div class="popup-1 " id="popup-1">
+      <div class="flex justify-between items-center bg-black h-20 px-5">
+        <h2 class="text-xl font-bold text-white bg-black">Activity</h2>
+        <button  class="px-6 py-2 border float-right text-white font-bold " id="close1">Close</button>
+      </div>
+      
+      <section class="flex justify-center items-center mt-5">
+        <div class="bg-white rounded-full py-0.5 lg:py-0">
+          <button
+            class="px-3 md:px-5 lg:px-8 py-1 md:py-2 bg-black text-white rounded-full text-sm lg:text-xl font-semibold"
+          >
+            All
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            FTM
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            BSC
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            MATIC
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            ONE
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            AVAX
+          </button>
+        </div>
+      </section>
+      <h1 class="text-2xl font-bold text-black mt-5 ml-5">Latest Events</h1>
+      <section class="flex justify-center items-center mt-5">
+        <div class="bg-white rounded-full py-0.5 lg:py-0">
+          <button
+            class="px-3 md:px-5 lg:px-16 py-1 md:py-2 bg-black text-white rounded-full text-sm lg:text-xl font-semibold"
+          >
+            All
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            FTM
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            BSC
+          </button>
+          <button
+            class="px-3 md:px-5 lg:px-16 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+          >
+            MATIC
+          </button>
+          
+         
+        </div>
+      </section>
+    </div>
+
+
+
+
+
+
+    <div class="popup-2 " id="popup-2">
+        <div class="flex justify-between items-center bg-black h-20 px-5">
+          <h2 class="text-xl font-bold text-white bg-black">NFT Collection</h2>
+          <button  class="px-6 py-2 border float-right text-white font-bold " id="close2">Close</button>
+        </div>
+        
+        <section class="flex justify-center items-center mt-5">
+          <div class="bg-white rounded-full py-0.5 lg:py-0">
+            <button
+              class="px-3 md:px-5 lg:px-8 py-1 md:py-2 bg-black text-white rounded-full text-sm lg:text-xl font-semibold"
+            >
+              All
+            </button>
+            <button
+              class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+            >
+              FTM
+            </button>
+            <button
+              class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+            >
+              BSC
+            </button>
+            <button
+              class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+            >
+              MATIC
+            </button>
+            <button
+              class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+            >
+              ONE
+            </button>
+            <button
+              class="px-3 md:px-5 lg:px-8 py-1 md:py-2 rounded-full text-sm lg:text-xl font-semibold"
+            >
+              AVAX
+            </button>
+          </div>
+        </section>
+       <input type="search" class="px-2 py-3 border m-7" placeholder="Search">
+       <div class="flex justify-center space-x-3 lg:space-x-9">
+        <p>24h Volume</p>
+        <p>7d volume</p>
+        <p>30d volume</p>
+        <p>Total volume</p>
+       </div>
+        
+
+      <div class="mt-5 bg-white px-2 py-5">
+        <div class="flex justify-between px-5 bg-white mt-3">
+            <div class="flex gap-3 bg-white">
+                <div class="bg-white"><img src="assets/m1.png" alt="" ></div>
+                <div class="font-bold text-lg bg-white" >Pancake Squad <br><p class="text-xs font-normal bg-white">4.4 BNB 24h volume</p></div>
+            </div>
+            <div class="bg-white"><button class="border px-1 bg-white">1000</button></div>
+           </div>
+           <div class="flex justify-between px-5 bg-white mt-3">
+            <div class="flex gap-3 bg-white">
+                <div class="bg-white"><img src="assets/m2.png" alt="" ></div>
+                <div class="font-bold text-lg bg-white" >Pancake Squad <br><p class="text-xs font-normal bg-white">4.4 BNB 24h volume</p></div>
+            </div>
+            <div class="bg-white"><button class="border px-1 bg-white">1000</button></div>
+           </div>
+           <div class="flex justify-between px-5 bg-white mt-3">
+            <div class="flex gap-3 bg-white">
+                <div class="bg-white"><img src="assets/m1.png" alt="" ></div>
+                <div class="font-bold text-lg bg-white" >Pancake Squad <br><p class="text-xs font-normal bg-white">4.4 BNB 24h volume</p></div>
+            </div>
+            <div class="bg-white"><button class="border px-1 bg-white">1000</button></div>
+           </div>
+           <div class="flex justify-between px-5 bg-white mt-3">
+            <div class="flex gap-3 bg-white">
+                <div class="bg-white"><img src="assets/m2.png" alt="" ></div>
+                <div class="font-bold text-lg bg-white" >Pancake Squad <br><p class="text-xs font-normal bg-white">4.4 BNB 24h volume</p></div>
+            </div>
+            <div class="bg-white"><button class="border px-1 bg-white">1000</button></div>
+           </div>
+           <div class="flex justify-between px-5 bg-white mt-3">
+            <div class="flex gap-3 bg-white">
+                <div class="bg-white"><img src="assets/m1.png" alt="" ></div>
+                <div class="font-bold text-lg bg-white" >Pancake Squad <br><p class="text-xs font-normal bg-white">4.4 BNB 24h volume</p></div>
+            </div>
+            <div class="bg-white"><button class="border px-1 bg-white">1000</button></div>
+           </div>
+           <div class="flex justify-between px-5 bg-white mt-3">
+            <div class="flex gap-3 bg-white">
+                <div class="bg-white"><img src="assets/m2.png" alt="" ></div>
+                <div class="font-bold text-lg bg-white" >Pancake Squad <br><p class="text-xs font-normal bg-white">4.4 BNB 24h volume</p></div>
+            </div>
+            <div class="bg-white"><button class="border px-1 bg-white">1000</button></div>
+           </div>
+        </div>
+          
+          
+      </div>
+
+
+    
+        <div class="popup-3 px-3 py-4" id="popup-3">
+            <button  class="px-5 py-2  float-right text-white font-bold text-3xl" id="close3"><span class="material-symbols-outlined text-black bg-white">
+                close
+                </span></button>
+                <img src="assets/pop3.png" alt="">
+        </div>
+   
+
+
+
+
+    <script src="JS/nft.js"></script>
+    
+  </body>
+</html>

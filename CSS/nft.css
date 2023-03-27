@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:  #f3f5fb;
+}  
+nav{
+    background-color:   #e3e6ee;
+}
+nav ul{
+    background-color:   #e3e6ee;
+}
+nav ul li{
+    background-color:   #e3e6ee;
+}
+nav p{
+    background-color:   #e3e6ee;
+}
+.mini-card-img{
+    min-width: 60px;
+}
+.card{
+    min-width: 240px;
+   
+}
+.card-pic{
+    max-width: 60%;
+}
+.position{
+    position: absolute;
+    top: 25vh;
+    right: 40px;
+}
+.list-card{
+    width: 1050px;
+}
+label{
+    background-color:#e3e6ee ;
+}
+.popup-1 {
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color:#f3f5fb ;
+    display: none;
+}
+
+.popup-2 {
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color:#f3f5fb ;
+   display: none;
+}
+.popup-2 input{
+    width: 90%;
+    border: 1px solid #aaabad;
+    border-radius: 5px;
+    outline: none;
+}
+#collection-btn{
+    border-bottom: 5px solid black;
+}
+
+#listing-div{
+   display: none;
+}
+.popup-3{
+   
+    width: 23vw;
+    border-radius: 15px;
+    background-color: #fff;
+     position: absolute;
+    top: 10%;
+    left: 40%;
+    display: none;
+   
+}
+
+
+@media screen and (max-width:1280px){
+  #show{
+    display: none;
+  }
+}
+@media screen and (max-width:600px) {
+    .logo-text{
+        display: none;
+    }
+    .popup-1 {
+        width: 100vw;
+    }
+    .popup-2 {
+        width: 100vw;
+    }
+}
